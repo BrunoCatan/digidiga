@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 1.5%;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+span {
+    font-size: 3vmax;
+    font-weight: bold;
+}
+
+#digi {
+    margin-right: 0;
+    margin-left: 2.5%;
+    color: #A5410F;
+}
+
+#diga {
+    margin: 0;
+    color: #506269;
+}
+
+nav {
+    text-align: right;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #506269;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    font-size: 1.5vmax;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    color: #A5410F;
+}
+
+main {
+    display: flex;
+}
+
+.boxTexto {
+    margin-top: 15%;
+    
+}
+
+.textoPrincipal {
+    font-size: 3.5vmax;
+    color: #506269;
+    margin-top: 0%;
+    padding-top: 20%;
+}
+
+.textoSecundario {
+    color: #545c5f9d;
+    font-size: 1.5vmax;
+}
+
+.imagemBox {
+    padding-left: 8%;
+    margin-left: 8%;
+}
+
+.imagemBox img {
+    width: 45vmax;
+}
+
+button {
+    background-color: #A5410F;
+    width: 30vmax;
+    height: 6vmax;
+    border: none; 
+    padding: 3.5% 3.5%;
+    text-align: center;   
+    font-size: 1.6vmax;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    font-size: 1.5vmax;
+    font-weight: bold;
+}
+
+button a:hover {
+    color: #506269;
+}
